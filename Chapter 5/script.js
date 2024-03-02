@@ -60,7 +60,7 @@ document.write("Total cost to buy 5 tickets to a movie is " + cnum1 * 5 + "PKR <
 document.write("<h2>Question 5</h2>")
 
 var tnum1 = 4
-document.write("Table of 4 <br> " + tnum1 +"x1=" + tnum1*1 + "<br>" + tnum1 +"x2=" + tnum1*2 + "<br>" + tnum1 +"x3=" + tnum1*3 + "<br>" + tnum1 +"x4=" + tnum1*4 + "<br>" + tnum1 +"x5=" + tnum1*5 + "<br>" + tnum1 +"x6=" + tnum1*6 + "<br>" + tnum1 +"x7=" + tnum1*7 + "<br>" + tnum1 +"x8=" + tnum1*8 + "<br>" + tnum1 +"x9=" + tnum1*9 + "<br>" + tnum1 +"x10=" + tnum1*10 + "<br>")
+document.write("Table of " + tnum1 + "<br>" + tnum1 +"x1=" + tnum1*1 + "<br>" + tnum1 +"x2=" + tnum1*2 + "<br>" + tnum1 +"x3=" + tnum1*3 + "<br>" + tnum1 +"x4=" + tnum1*4 + "<br>" + tnum1 +"x5=" + tnum1*5 + "<br>" + tnum1 +"x6=" + tnum1*6 + "<br>" + tnum1 +"x7=" + tnum1*7 + "<br>" + tnum1 +"x8=" + tnum1*8 + "<br>" + tnum1 +"x9=" + tnum1*9 + "<br>" + tnum1 +"x10=" + tnum1*10 + "<br>")
 
 // Q6
 document.write("<h2>Question 6</h2>")
