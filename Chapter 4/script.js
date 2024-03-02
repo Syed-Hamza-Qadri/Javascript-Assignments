@@ -2,13 +2,13 @@
 
 // Q1
 var naam = user = username = "Hamza"
-console.log(naam + "<br>")
-console.log(user+ "<br>")
-console.log(username+ "<br>")
+console.log(naam )
+console.log(user)
+console.log(username)
 
 // Q2
-var LVar = "<h1>LEGAL Variables</h1> myVariable <br> _underscoreVariable <br> $dollarVariable <br> camelCaseVariable <br> Number123"
-var IVar = "<h1>ILLEGAL Variables</h1> 123Number (Cannot start with a number)  <br> illegal-variable (Hyphens are not allowed) <br> my variable (Spaces are not allowed) <br> let (Reserved keyword) <br> &specialCharacter (Special characters like '&' are not allowed)"
+var LVar = "LEGAL Variables \n myVariable \n _underscoreVariable \n $dollarVariable \n camelCaseVariable \n Number123"
+var IVar = "ILLEGAL Variables \n 123Number (Cannot start with a number) \n illegal-variable (Hyphens are not allowed) \n my variable (Spaces are not allowed) \n let (Reserved keyword) \n &specialCharacter (Special characters like '&' are not allowed)"
 console.log(LVar)
 console.log(IVar)
 
