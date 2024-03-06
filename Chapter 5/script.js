@@ -82,7 +82,7 @@ var qnum1 = 3
 var qnum2 = 7
 var snum1 = 100
 
-document.write("<h2>Shopping Cart</h2> <br> Price of item 1 is " + inum1 + "<br> Quantity of item 1 is " + qnum1 + "<br> Price of item 2 is " + inum2 + "<br> Quantity of item 2 is " + qnum2 + "<br> Shipping Charges " + snum1 + "<br>")
+document.write("<h3>Shopping Cart</h3> <br> Price of item 1 is " + inum1 + "<br> Quantity of item 1 is " + qnum1 + "<br> Price of item 2 is " + inum2 + "<br> Quantity of item 2 is " + qnum2 + "<br> Shipping Charges " + snum1 + "<br>")
 
 // Q8
 document.write("<h2>Question 8</h2>")
@@ -91,6 +91,53 @@ var tmarks1 = 980
 var omarks1 = 804
 var percent1 = (omarks1/tmarks1) * 100
 
-document.write("<h2>Mark Sheet</h2> <br> Total Marks : " + tmarks1 + "<br> Marks Obtained : " + omarks1 + "<br> Percentage : " + percent1 + "<br>")
+document.write("<h3>Mark Sheet</h3> <br> Total Marks : " + tmarks1 + "<br> Marks Obtained : " + omarks1 + "<br> Percentage : " + percent1 + "<br>")
 
 // Q9
+document.write("<h2>Question 9</h2>")
+
+var US$ = 10
+var Riyal = 25
+
+var US$toPkr = 104.80
+var RiyaltoPkr = 28
+
+var totalPkr = (US$*US$toPkr)+(Riyal*RiyaltoPkr)
+
+document.write("<h3>Currency in PKR</h3> <br> Total Currency in PKR: "+ totalPkr)
+
+// Q10
+document.write("<h2>Question 10</h2>")
+
+var numVar = 5
+document.write(((numVar + 5) * 10) / 2)
+
+// Q11
+document.write("<h2>Question 11</h2>")
+
+var currentYear = 2024
+var birthYear = 2005
+
+var age = currentYear - birthYear
+
+document.write("<h3>Age Calculator</h3> <br> Current Year: " + currentYear + "<br> Birth Year: " + birthYear + "<br> Your Age is: " + age + "<br>")
+
+// Q12
+document.write("<h2>Question 12</h2>")
+
+var circleRadius = 20
+var circumference = 2*3.142*circleRadius
+var circleArea = 3.142*(circleRadius ** 2)
+
+document.write("<h3>The Geometrizer</h3> <br> Radius of a circle: " + circleRadius + "<br> The circumference is: " + circumference + "<br> The area is: " + circleArea + "<br>")
+
+// Q13
+document.write("<h2>Question 13</h2>")
+
+var favSnack = "chocolate chip"
+var currentAge = 18
+var maxAge = 63
+var amountPerDay = 3
+
+document.write("<h3>The Lifetime Supply Calculator</h3> <br> You will need " + amountPerDay*(maxAge-currentAge) + " " + favSnack + " to last you until the rip old age of " + maxAge + "<br>")
+
