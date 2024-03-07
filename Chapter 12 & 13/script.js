@@ -72,9 +72,9 @@ document.write("<h2>Question 6</h2>")
 var greeting;
 var hour = 13;
 if (hour < 18) {
-    greeting = "Good day";
+    greeting = "Good day!";
 } else {
-    greeting = "Good evening";
+    greeting = "Good evening!";
 }
 
 console.log(greeting)
