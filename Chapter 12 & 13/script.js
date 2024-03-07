@@ -3,6 +3,9 @@
 // // Q1
 // document.write("<h2>Question 1</h2>")
 
+// var userInput1 = prompt("Enter a character (number or string):")
+
+
 // Q2
 document.write("<h2>Question 2</h2>")
 
@@ -77,6 +80,24 @@ if (hour < 18) {
 console.log(greeting)
 document.write(greeting)
 
-// // Q7
-// document.write("<h2>Question 7</h2>")
+// Q7
+document.write("<h2>Question 7</h2>")
 
+var uinput2 = +prompt("Enter the time in 24-hour format (e.g., 1900):")
+
+if (uinput2 >= 0 && uinput2 < 1200) {
+    console.log("Good morning!")
+    document.write("Good morning!")
+} else if (uinput2 >= 1200 && uinput2 < 1700) {
+    console.log("Good afternoon!")
+    document.write("Good afternoon!")
+} else if (uinput2 >= 1700 && uinput2 < 2100) {
+    console.log("Good evening!")
+    document.write("Good evening!")
+} else if (uinput2 >= 2100 && uinput2 < 2359) {
+    console.log("Good night!")
+    document.write("Good night!")
+} else {
+    console.log("Invalid input. Please enter a valid time.")
+    document.write("Invalid input. Please enter a valid time.")
+}
